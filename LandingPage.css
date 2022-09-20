@@ -1,0 +1,167 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgray;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+  height: 85%;
+  width: 62%;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.section {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSection {
+  height: 60%;
+  width: 51%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: smaller;
+}
+.header {
+  margin-bottom: 3vh;
+}
+.title {
+  font-size: 30px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.loginInput {
+  display: flex;
+  flex-direction: column;
+  row-gap: .4vh;
+  margin-bottom: 2vh;
+}
+.input {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-top: .7vh;
+  padding-bottom: .7vh;
+  padding-left: .5vw;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: smaller;
+  margin-bottom: 2vh;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+.link:visited {
+  color: #000;
+}
+.link2 {
+  color: #fff;
+  text-decoration: none;
+}
+.link2:visited {
+  color: #fff;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signInButton {
+  font-size: small;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-top: .8vh;
+  padding-bottom: .8vh;
+  margin-bottom: 1.5vh;
+}
+.signInGoogleButton {
+  font-size: small;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-top: .8vh;
+  padding-bottom: .8vh;
+  margin-bottom: 1.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.googleIcon {
+  max-height: 1.5vh;
+  max-width: 1.5vh;
+}
+
+.section2 {
+  background-image: url("images/background.png");
+  align-items: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.commentSection {
+  height: 35%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
+  justify-content: space-around;
+}
+.comment {
+  font-size: 20px;
+  margin: 0;
+}
+.commentMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.commentName {
+  margin-top: 0;
+  margin-bottom: 1vh;
+}
+
+.commentOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+div.commentOptions > p {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.rateStarImg {
+  max-height: 1vw;
+  max-width: 1vw;
+}
+.arrowImg {
+  max-height: 3vw;
+  max-width: 3vw;
+}
