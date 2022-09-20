@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 .header {
   margin-bottom: 3vh;
@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: smaller;
+  font-size: 12px;
   margin-bottom: 2vh;
 }
 div.options > div {
@@ -81,7 +81,7 @@ div.options > div {
   color: #fff;
 }
 .centered {
-  font-size: 11px;
+  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,5 +174,5 @@ div.commentOptions > p {
 input[type="checkbox"] {
   height: 18px;
   margin: 0px;
-  margin-right: 1vh;
+  margin-right: 0.5vh;
 }
