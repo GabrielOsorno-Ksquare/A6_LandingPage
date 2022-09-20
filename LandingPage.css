@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: smaller;
+  font-size: 13px;
 }
 .header {
   margin-bottom: 3vh;
@@ -62,6 +62,9 @@ body {
   font-size: smaller;
   margin-bottom: 2vh;
 }
+div.options > div {
+  display: flex;
+}
 
 .link {
   color: #000;
@@ -78,6 +81,7 @@ body {
   color: #fff;
 }
 .centered {
+  font-size: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +111,8 @@ body {
   justify-content: center;
 }
 .googleIcon {
-  max-height: 1.5vh;
+  height: 1.5vh;
+  max-height: 15px;
   max-width: 1.5vh;
 }
 
@@ -164,4 +169,10 @@ div.commentOptions > p {
 .arrowImg {
   max-height: 3vw;
   max-width: 3vw;
+}
+
+input[type="checkbox"] {
+  height: 18px;
+  margin: 0px;
+  margin-right: 1vh;
 }
